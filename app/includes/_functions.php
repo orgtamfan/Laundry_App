@@ -30,7 +30,7 @@ function query($query){
 // Fungsi Absolute URL
 // Absolute url merupakan Serangkaian alamat yang menunjukkan suatu dokumen atau direktori, dengan menyertakan alamat domain atau host
 function url($url = null){
-	$url_utama = "http://localhost/rumah_laundry";
+	$url_utama = "http://localhost/Laundry_App/app";
 	if ($url != null) {
 		return $url_utama . '/' . $url;
 	}else{
